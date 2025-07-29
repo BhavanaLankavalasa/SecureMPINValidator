@@ -1,7 +1,7 @@
 #Project Title:
-#Secure MPIN Validator
+#🔐Secure MPIN Validator
 
-##Description:
+##📌Description:
 This project focuses on analyzing a user's MPIN (Mobile Banking Personal Identification Number) and determining whether it is strong or weak based on meaningful patterns. The core idea behind this solution is to identify whether the MPIN is predictable or sensitive by comparing it against commonly used numbers and user-specific demographic patterns. 
 
 Instead of treating MPIN as just a string of digits, the logic was built to understand possible connections and behavioral tendencies behind the choices users make such as using their date of birth or repeating digits. The outcome is a simple and clear result that helps categorize the MPIN's strength based on practical and real-world scenarios.
@@ -9,7 +9,7 @@ Instead of treating MPIN as just a string of digits, the logic was built to unde
 ##Project Structure:
 The folder structure of this project follows standard Java project conventions. All Java classes are organized under the package `com.onebanc.mpinValidation`, and the source files are placed under the `src` directory.
 
-SecureMPINValidator/
+'''SecureMPINValidator/
 │
 ├── README.md
 ├── .classpath
@@ -22,6 +22,7 @@ SecureMPINValidator/
 │           ├── CommonPINChecker.java
 │           ├── DemographicChecker.java
 │           ├── TestCases.java
+'''
 
 
 ##Technology Used:
