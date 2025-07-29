@@ -9,7 +9,7 @@ Instead of treating MPIN as just a string of digits, the logic was built to unde
 ##Project Structure:
 The folder structure of this project follows standard Java project conventions. All Java classes are organized under the package `com.onebanc.mpinValidation`, and the source files are placed under the `src` directory.
 
-''' SecureMPINValidator/
+``` SecureMPINValidator/
 │
 ├── README.md
 ├── .classpath
@@ -22,7 +22,7 @@ The folder structure of this project follows standard Java project conventions. 
 │           ├── CommonPINChecker.java
 │           ├── DemographicChecker.java
 │           ├── TestCases.java
- '''
+ ```
 
 
 ## Technology Used:
